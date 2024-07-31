@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="checkCredentials()">Login</button>
+    <script>
+        function checkCredentials() {
+            const username = prompt("Please enter your username:");
+            const password = prompt("Please enter your password:");
+            if (username === 'Ishita' && password === '1602') {
+                window.location.href = 'page3.html';
+            } else {
+                alert("Wrong credentials");
+            }
+        }
+    </script>
+
+
+</script>
+</body>
+</html>
